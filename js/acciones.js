@@ -27,9 +27,7 @@ document.addEventListener("deviceready",function(){
 		navigator.vibrate(1000);
 		});
 		
-		$('#btnvolver').on('tap',function(){
-		navigator.vibrate(1000);
-		});
+		
 		
 		
 		
