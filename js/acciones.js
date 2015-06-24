@@ -3,28 +3,29 @@ $(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
 	    $('#btnmenu').on('tap',function(){
 		navigator.vibrate(1000);
-	   
-		}); 
+		alert('vivro');
 		
-		$('#btnbiografia').on ('tap',function(){
-		navigator.notification.beep(1);	
+	     }); 
+		
+		$('#btnbiografia').on('tap',function(){
+		navigator.vibrate(1000);
 		});//Reinicio
 		
-		$('#btnalbunes').on ('tap',function(){
-		navigator.notification.beep(1);	
+		$('#btnalbunes').on('tap',function(){
+		navigator.vibrate(1000);
+		});
+		
+		$('#btnfotos').on('tap',function(){
+		navigator.vibrate(1000);
 		});//Reinicio
 		
-		
-		$('#btnfotos').on ('tap',function(){
-		navigator.notification.beep(1);	
+		$('#btndisco').on('tap',function(){
+		navigator.vibrate(1000);
 		});//Reinicio
 		
-		$('#btndisco').on ('tap',function(){
-		navigator.notification.beep(1);	
-		});//Reinicio
+		$('#btnintegrantes').on('tap',function(){
+		navigator.vibrate(1000);
 		
-		$('#btnintegrantes').on ('tap', function(){
-		navigator.notification.beep(1);	
 		});//Reinicio
 		
 		
